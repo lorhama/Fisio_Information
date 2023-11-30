@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <style>
+        p.titulo {
+            text-align: center;
+            font-size: 50px;
+
+        }
+
+        .card-custom {
+            height: 100%;
+            /* Todos os cards terão a mesma altura */
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .col-md-4 {
+            display: flex;
+            flex: 1;
+            /* Colunas ocupam espaço igual */
+        }
+
+        .card {
+            flex: 1;
+            /* Faz o card expandir para preencher o espaço da coluna */
+        }
+
+        .footer-health {
+            background-color: #28a745;
+            /* Bootstrap's .bg-success color */
+            color: white;
+            border-radius: 0.25rem;
+            /* Bootstrap's default border radius */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="Inicio.html">Inicio <span class="sr-only">(Página
+                        atual)</span></a>
+                <a class="nav-item nav-link" href="A_Doenca.html">A Doença</a>
+                <a class="nav-item nav-link" href="Sinais_Sintomas.html">Sinais e Sintomas</a>
+                <a class="nav-item nav-link" href="Fatores_causais.html">Fatores Causais</a>
+                <a class="nav-item nav-link" href="Diagnostico.html">Diagnostico</a>
+                <a class="nav-item nav-link" href="Prevencao.html">Prevenção</a>
+            </div>
+        </div>
+    </nav>
+    </nav>
+
+    Carousel
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="../Projeto_IFSC/Banco_de_imagens/home.png" height="550"
+                    alt="Primeiro Slide">
+            </div>
+        </div>
+    </div>
+
+    <!-- Título -->
+    <p class="titulo">INSUFICIÊNCIA CARDÍACA CONGESTIVA</p>
+
+    <!-- Cards -->
+    <div class="container">
+        <div class="row">
+            <!-- Primeira linha de cards -->
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <img class="card-img-top" src="../Projeto_IFSC/Banco_de_imagens/1.png"
+                    style="border-radius: 5px;" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Exercícios para um coração forte</h5>
+                        <p class="card-text">Não é novidade que a prática de atividade física é uma grande aliada do
+                            bem-estar físico e mental.</p>
+                        <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257607"
+                            class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <img class="card-img-top" src="../Projeto_IFSC/Banco_de_imagens/2.png"
+                    style="border-radius: 5px;" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Dicas para manter a saúde do coração</h5>
+                        <p class="card-text">Cuidar da saúde do coração é uma das condutas essenciais quando o assunto é
+                            manter a
+                            qualidade de vida e o bom funcionamento do nosso organismo. </p>
+                        <a href="https://conteudo.omronbrasil.com/coracao-saudavel/" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <img class="card-img-top" src="../Projeto_IFSC/Banco_de_imagens/3.png"
+                    style="border-radius: 5px;" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitorização cardíaca: quais os protocolos e melhores práticas?</h5>
+                        <p class="card-text">A monitorização cardíaca oferece dados essenciais para o acompanhamento de
+                            pacientes
+                            instáveis.</p>
+                        <a href="https://www.jmir.org/2020/7/e17559" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Outros cards... -->
+        </div>
+        <br><br>
+
+        <div class="row">
+
+            <!-- Segunda linha de cards -->
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <img class="card-img-top" src="../Projeto_IFSC/Banco_de_imagens/4.png"
+                    style="border-radius: 5px;" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Como melhorar a capacidade respiratória?</h5>
+                        <p class="card-text">Treinar a capacidade respiratória se mostra efetivo no tratamento da ICC.
+                        </p>
+                        <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257607"
+                            class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <img class="card-img-top" src="../Projeto_IFSC/Banco_de_imagens/5.png"
+                    style="border-radius: 5px;" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Exercícios intervalados</h5>
+                        <p class="card-text">Artigo</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <img class="card-img-top" src="../Projeto_IFSC/Banco_de_imagens/6.png"
+                    style="border-radius: 5px;" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Quais os princípios de orientação para um paciente com ICC?</h5>
+                        <p class="card-text">Conheça mais sobre a Diretriz Brasileira de Insuficiência Cardíaca.</p>
+                        <a href="https://www.scielo.br/j/abc/a/XkVKFb4838qXrXSYbmCYM3K/?lang=pt"
+                            class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Outros cards... -->
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Rodapé -->
+    <footer class="footer-health text-center py-3">
+        <div class="container">
+            Consulte um médico se achar que pode estar sofrendo de insuficiência cardíaca.
+        </div>
+    </footer>
+
+</body>
+
+</html>

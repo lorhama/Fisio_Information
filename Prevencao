@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prevencao</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <style>
+    .footer-health {
+      background-color: #28a745;
+      /* Bootstrap's .bg-success color */
+      color: white;
+      border-radius: 0.25rem;
+      /* Bootstrap's default border radius */
+    }
+
+    img.fotos {
+      width: 190px;
+      height: 180px;
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    ul, p {
+            text-align: left;
+            font-size: large;
+        }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="Inicio.html">Inicio <span class="sr-only">(Página atual)</span></a>
+        <a class="nav-item nav-link" href="A_Doenca.html">A Doença</a>
+        <a class="nav-item nav-link" href="Sinais_Sintomas.html">Sinais e Sintomas</a>
+        <a class="nav-item nav-link" href="Fatores_causais.html">Fatores Causais</a>
+        <a class="nav-item nav-link" href="Diagnostico.html">Diagnostico</a>
+        <a class="nav-item nav-link" href="Prevencao.html">Prevenção</a>
+      </div>
+    </div>
+  </nav>
+  </nav>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="../Projeto_IFSC/Banco_de_imagens/prevenção.png" height="550"
+          alt="Primeiro Slide">
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="container">
+    <!-- Primeira Linha com 3 Imagens -->
+    <div class="row">
+        <div class="col-md-4"><img src="../Projeto_IFSC/Banco_de_imagens/1-3.png" class="img-fluid fotos" style="width: 250px; height: 200px; border-radius: 5px;"></div>
+        <div class="col-md-4"><img src="../Projeto_IFSC/Banco_de_imagens/2-3.png" class="img-fluid fotos" style="width: 300px; height: 200px; border-radius: 5px;"></div>
+        <div class="col-md-4"><img src="../Projeto_IFSC/Banco_de_imagens/3-3.png" class="img-fluid fotos" style="width: 250px; height: 200px; border-radius: 5px;"></div>
+    </div>
+
+    <br>
+
+    <!-- Segunda Linha com 2 Imagens -->
+    <div class="row justify-content-center">
+        <div class="col-md-4"><img src="../Projeto_IFSC/Banco_de_imagens/4-3.png" class="img-fluid fotos" style="width: 250px; height: 200px; border-radius: 5px;"></div>
+        <div class="col-md-4"><img src="../Projeto_IFSC/Banco_de_imagens/5-3.png" class="img-fluid fotos" style="width: 250px; height: 200px; border-radius: 5px;"></div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Terceira Linha com 2 Colunas -->
+    <div class="row">
+        <!-- Primeira Coluna com Texto -->
+        <div class="col-md-6">
+            <p class="text-justify">
+                A prevenção é realizada em dois estágios:<br>
+                <strong>1-</strong> Pacientes que já apresentam fatores de riscos e/ou causais, mas sem alterações na função e estrutura cardíaca.<br>
+                <strong>2-</strong> Pacientes com alterações na função e estrutura cardíaca, sem presença de sinais e sintomas.
+            </p>
+        </div>
+        
+        <!-- Segunda Coluna com Lista Não Ordenada -->
+        <div class="col-md-6">
+            <ul>
+                <li>Controle das doenças adjacentes;</li>
+                <li>Diminuir o consumo de bebida alcoólica e tabagismo;</li>
+                <li>Seguir uma dieta equilibrada;</li>
+                <li>Praticar exercícios regulares;</li>
+                <li>Beber água;</li>
+                <li>Manter um peso saudável;</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+  <br>
+  <br>
+
+  <!-- Rodapé -->
+  <footer class="footer-health text-center py-3">
+    <div class="container">
+      Consulte um médico se achar que pode estar sofrendo de insuficiência cardíaca.
+    </div>
+  </footer>
+
+</body>
+
+</html>
